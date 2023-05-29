@@ -7,6 +7,10 @@ android {
     namespace 'com.example.myapplication'
     compileSdk 33
 
+    dependencies {
+        implementation "androidx.core:core:1.6.0"
+    }
+
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdk 24
